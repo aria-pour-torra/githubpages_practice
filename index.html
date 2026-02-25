@@ -92,7 +92,8 @@
             // 結果表示
             document.getElementById("result").innerHTML =
                 `<h2>Your Score: ${score} / ${quizData.length}</h2>
-                 <p>Accuracy: ${percent}%</p>`;
+                 <p>Accuracy: ${percent}%</p>
+                 <p>${percent >= 80 ? "Great job!" : "Keep practicing!"}</p>`;
         }
     </script>
 
